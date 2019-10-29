@@ -34,6 +34,7 @@ CREATE TABLE IF NOT EXISTS room (
 # Requests made to controller - URL followed by body
 
 http://localhost:8080/zookeeper-web-project/myservlet?action=getAllValues
+
 http://localhost:8080/zookeeper-web-project/myservlet?action=deleteAnimal
 {"animalId" : "5"}
 
@@ -66,7 +67,6 @@ http://localhost:8080/zookeeper-web-project/myservlet?action=moveAnimalToRoom&an
 {"roomId":"2","dateOfCreation":"2019-10-23"}
 
 http://localhost:8080/zookeeper-web-project/myservlet?action=removeAnimalFromRoom&animalId=7
-
 {"roomId":"2","dateOfCreation":"2019-10-23"}
 
 

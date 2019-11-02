@@ -1,5 +1,29 @@
 # zoo-keeper
 
+This is a small web application (without front-end, only back-and written on java).
+
+• We have a zoo.
+• Zoo has rooms.
+
+ Project implements CRUD for animal & room (create, read, update, delete for room and animal from zoo. 
+ As well the following functionalities: 
+• Place an animal in to the room.
+• Move an animal from one room to another room.
+• Remove an animal from the room.
+• Assign room to an animal as favorite.
+• Unassign room to an animal as favorite.
+
+ Controllers consume and produce json. Query parameters used if necessary.
+
+
+ The project also provides the following reports
+• List of animals in the zoo but not in the room (Title, date when added). Sort by title, by date
+added. Input parameters: field for sorting (title or located, order asc or desc).
+• List of animals in the specific room (title, date located). Input parameters: room, field for
+sorting (title or located, order asc or desc).
+• List of favorite rooms for specific animal (one animal can have 0, 1, or more than one
+favorite rooms). (Title of rooms. No sorting).
+
 #Table creation scripts
 
 CREATE DATABASE [IF NOT EXISTS] zooDb;
